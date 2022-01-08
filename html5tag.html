@@ -5,44 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html-5</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>No</th>
-                <th>Name</th>
-                <th>Salary</th>
-                <th>Position</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>shohan</td>
-                <td>developer</td>
-                <td>30000</td>
-                <td>SN Developer</td>
-            </tr>
-            <tr>
-                <td>Jahin</td>
-                <td>Designer</td>
-                <td>40000</td>
-                <td>SN designer</td>
-            </tr>
-            <tr>
-                <td>Noor</td>
-                <td>Marketer</td>
-                <td>25000</td>
-                <td>Marketing Manager</td>
-            </tr>
-            <tr>
-                <td>Hasib</td>
-                <td>Manager</td>
-                <td>25000</td>
-                <td>Account Manager</td>
-            </tr>
-        </tbody>
-    </table>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="nav.html">Home</a></li>
+                <li><a href="html5tag.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+        <!--Form making start-->
+            <form action="">
+                <h1>Our Form</h1>
+                <p>
+                    <label for="fname">First name</label>
+                    <input type="text" name="fnmae" id="fname">
+                </p>
+                <p>
+                    <label for="lname">Last name
+                        <input type="text" id="lname">
+                    </input></label>
+                </p>
+                <fieldset>   
+                    <legend>
+                        <p>selet your city</p>
+                    </legend>
+                        <p><label for="radio"><input type="radio" id="radio" name="radio">Dhaka</label></p>
+                        <p><label for="radio"><input type="radio" id="radio" name="radio">Barishal</label></p>
+                        <p><label for="radio"><input type="radio" id="radio" name="radio">Sylet</label></p> 
+                </fieldset>
+                <fieldset>
+                    <legend><p>Select Your Relegion</p></legend>
+                    <p><label for="check"><input type="checkbox" name="rel" id="check">Islam</label></p>
+                    <p><label for="check"><input type="checkbox" name="rel" id="check">Hindu</label></p>
+                    <p><label for="check"><input type="checkbox" name="rel" id="check">Christian</label></p>
+                </fieldset>
+                <br>
+                <p>Special new <br><textarea name="" id="" cols="30" rows="10"></textarea></p>
+                <br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                
+                
+            </form>
+        <!--Form making end-->
 </body>
 </html>

@@ -1,0 +1,36 @@
+/*table style design*/
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid red;
+    padding:2px 10px;   
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(211, 100, 27);
+    font-size: 20px;
+
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+.dropdown{
+    display: none;
+    background-color: rgb(175, 41, 41);
+    position: absolute;
+    padding: 0;
+}
+.dropdown li{
+    margin:0;
+    padding: 0;
+}
